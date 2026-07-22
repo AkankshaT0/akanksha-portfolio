@@ -1,0 +1,166 @@
+.about-section {
+  background: #020617;
+  min-height: 100vh;
+}
+
+.about-intro {
+  max-width: 800px;
+}
+
+.text-violet {
+  color: #8b5cf6;
+}
+
+.bg-violet {
+  background: #8b5cf6;
+}
+
+.about-card {
+  transition: .3s;
+  border-radius: 20px;
+}
+
+.about-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(139, 92, 246, .25);
+}
+
+.timeline-item {
+  position: relative;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 3px;
+  top: 18px;
+  width: 18px;
+  height: 18px;
+  background: #8b5cf6;
+  border-radius: 50%;
+  border: 4px solid #020617;
+  z-index: 2;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 11px;
+  top: 36px;
+  bottom: -20px;
+  width: 2px;
+  background: #8b5cf6;
+}
+
+.detail-box {
+  background: #334155;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.interest-box {
+  background: #334155;
+  color: white;
+  border-radius: 12px;
+  padding: 12px;
+  text-align: center;
+  transition: .3s;
+}
+
+.interest-box:hover {
+  background: #8b5cf6;
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-bottom: 14px;
+  font-size: 17px;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+p {
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .timeline-item {
+    padding-left: 45px !important;
+  }
+
+  .timeline-dot {
+    left: 0;
+  }
+
+  .timeline-line {
+    left: 8px;
+  }
+}
+.skill-badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:50px;
+    background:#1e293b;
+    color:#fff;
+    font-size:14px;
+    font-weight:500;
+    transition:.3s;
+    border:1px solid rgba(255,255,255,.08);
+}
+
+.skill-badge:hover{
+    background:linear-gradient(135deg,#7c3aed,#a855f7);
+    color:#fff;
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(139,92,246,.35);
+}
+
+/* =================================
+   EDUCATION TEXT COLORS
+================================= */
+
+.education-institute {
+  color: #f8fafc;
+  font-weight: 600;
+}
+
+/* Date and Location */
+.education-meta {
+  color: #cbd5e1;
+  font-size: 0.95rem;
+}
+
+/* Icons */
+.education-meta svg {
+  color: #a855f7;
+}
+
+/* Description */
+.education-description {
+  color: #e2e8f0;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+/* Semester Details */
+.detail-box {
+  background: #1e293b;
+  color: #f1f5f9;
+  border: 1px solid rgba(168, 85, 247, 0.2);
+  padding: 12px 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.detail-box:hover {
+  background: #293548;
+  border-color: #8b5cf6;
+  color: #ffffff;
+  transform: translateY(-2px);
+}

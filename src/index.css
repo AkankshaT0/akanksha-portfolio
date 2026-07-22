@@ -1,0 +1,460 @@
+
+/* ===========================
+   GOOGLE FONT
+=========================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+/* ===========================
+   RESET
+=========================== */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:'Inter',sans-serif;
+  background:#020617;
+  color:white;
+  overflow-x:hidden;
+}
+
+/* ===========================
+   CUSTOM SCROLLBAR
+=========================== */
+
+::-webkit-scrollbar{
+  width:8px;
+}
+
+::-webkit-scrollbar-track{
+  background:#0f172a;
+}
+
+::-webkit-scrollbar-thumb{
+  background:#8b5cf6;
+  border-radius:100px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background:#7c3aed;
+}
+
+/* ===========================
+   TEXT SELECTION
+=========================== */
+
+::selection{
+  background:#8b5cf6;
+  color:white;
+}
+
+/* ===========================
+   LINKS
+=========================== */
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+/* ===========================
+   IMAGES
+=========================== */
+
+img{
+  width:100%;
+  display:block;
+}
+
+/* ===========================
+   SECTION
+=========================== */
+
+section{
+  position:relative;
+  padding:120px 8%;
+}
+
+/* ===========================
+   CONTAINER
+=========================== */
+
+.container{
+  max-width:1280px;
+  margin:auto;
+}
+
+/* ===========================
+   BACKGROUND
+=========================== */
+
+body::before{
+
+content:"";
+
+position:fixed;
+
+top:-250px;
+
+left:-250px;
+
+width:500px;
+
+height:500px;
+
+background:#8b5cf6;
+
+opacity:.12;
+
+filter:blur(180px);
+
+border-radius:50%;
+
+z-index:-2;
+
+}
+
+body::after{
+
+content:"";
+
+position:fixed;
+
+bottom:-250px;
+
+right:-250px;
+
+width:500px;
+
+height:500px;
+
+background:#ec4899;
+
+opacity:.12;
+
+filter:blur(180px);
+
+border-radius:50%;
+
+z-index:-2;
+
+}
+
+/* ===========================
+   GLASS CARD
+=========================== */
+
+.glass{
+
+background:rgba(255,255,255,.05);
+
+backdrop-filter:blur(18px);
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:24px;
+
+}
+
+/* ===========================
+   SECTION TITLE
+=========================== */
+
+.section-title{
+
+font-size:48px;
+
+font-weight:800;
+
+text-align:center;
+
+margin-bottom:20px;
+
+}
+
+.section-title span{
+
+color:#8b5cf6;
+
+}
+
+.section-subtitle{
+
+text-align:center;
+
+max-width:700px;
+
+margin:auto;
+
+color:#94a3b8;
+
+margin-bottom:70px;
+
+line-height:1.8;
+
+}
+
+/* ===========================
+   GRADIENT TEXT
+=========================== */
+
+.gradient{
+
+background:linear-gradient(
+90deg,
+#8b5cf6,
+#c084fc,
+#ec4899
+);
+
+-webkit-background-clip:text;
+
+-webkit-text-fill-color:transparent;
+
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+
+.btn{
+
+display:inline-flex;
+
+align-items:center;
+
+justify-content:center;
+
+gap:10px;
+
+padding:14px 34px;
+
+border-radius:999px;
+
+font-weight:600;
+
+transition:.35s;
+
+cursor:pointer;
+
+}
+
+.btn-primary{
+
+background:linear-gradient(
+135deg,
+#7c3aed,
+#8b5cf6
+);
+
+color:white;
+
+box-shadow:0 10px 30px rgba(139,92,246,.35);
+
+}
+
+.btn-primary:hover{
+
+transform:translateY(-5px);
+
+box-shadow:0 18px 45px rgba(139,92,246,.5);
+
+}
+
+.btn-outline{
+
+border:2px solid #8b5cf6;
+
+color:white;
+
+}
+
+.btn-outline:hover{
+
+background:#8b5cf6;
+
+transform:translateY(-5px);
+
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.card{
+
+background:#111827;
+
+border:1px solid rgba(255,255,255,.06);
+
+border-radius:24px;
+
+padding:30px;
+
+transition:.35s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 25px 50px rgba(139,92,246,.25);
+
+}
+
+/* ===========================
+   SOCIAL ICON
+=========================== */
+
+.social{
+
+width:58px;
+
+height:58px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+border-radius:50%;
+
+background:#1e293b;
+
+font-size:22px;
+
+transition:.35s;
+
+}
+
+.social:hover{
+
+background:#8b5cf6;
+
+transform:translateY(-5px);
+
+}
+
+/* ===========================
+   FLOAT ANIMATION
+=========================== */
+
+@keyframes floating{
+
+0%{
+
+transform:translateY(0px);
+
+}
+
+50%{
+
+transform:translateY(-18px);
+
+}
+
+100%{
+
+transform:translateY(0px);
+
+}
+
+}
+
+.floating{
+
+animation:floating 4s ease-in-out infinite;
+
+}
+
+/* ===========================
+   FADE UP
+=========================== */
+
+.fade{
+
+animation:fade .8s ease;
+
+}
+
+@keyframes fade{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+
+section{
+
+padding:100px 7%;
+
+}
+
+.section-title{
+
+font-size:40px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+section{
+
+padding:90px 6%;
+
+}
+
+.section-title{
+
+font-size:34px;
+
+}
+
+}
+
+@media(max-width:500px){
+
+.section-title{
+
+font-size:28px;
+
+}
+
+.btn{
+
+width:100%;
+
+}
+
+}
