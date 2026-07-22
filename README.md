@@ -8,7 +8,7 @@ This portfolio showcases my projects, technical skills, education, achievements,
 
 ## 🌐 Live Portfolio
 
-🔗 **Live Website:** [View My Portfolio](https://akanksha-portfolio.vercel.app/)
+🔗 **Live Website:** [View My Portfolio](https://akanksha-portfolio-nine.vercel.app/)
 
 > Replace the URL above with your actual Vercel URL if it is different.
 
