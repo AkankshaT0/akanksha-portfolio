@@ -113,6 +113,34 @@ const projects = [
   {
     id: 5,
 
+    title: "TimeAudit — Full Stack Personal Time Analytics Dashboard",
+
+    category: "FullStack + API",
+
+    image: "/projects/timeaudit.png",
+
+    description:
+      "A MERN application for planning time, tracking actual time, goals, productivity scoring, weekly analytics, and rule-based insights.",
+
+    technologies: [
+      "React + Vite",
+      "Bootstrap 5 + Bootstrap Icons",
+      "Recharts",
+      "Node.js + Express.js",
+      "MongoDB + Mongoose",
+      "JWT Authentication + Bcrypt",
+      "Helmet, CORS, rate limiting, validation"
+    ],
+
+     github: "https://github.com/AkankshaT0/timeaudit/tree/main", 
+
+    demo:
+      "https://timeaudit-one.vercel.app/",
+  },
+
+  {
+    id: 6,
+
     title: "Photography_Sidebar_Project",
 
     category: "Frontend",
@@ -137,7 +165,7 @@ const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
 
     title: "Spotify Clone – Web Player UI",
 
