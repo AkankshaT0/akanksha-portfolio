@@ -59,7 +59,7 @@ export default function Hero() {
             </p>
 
             <div className="d-flex flex-wrap gap-3 mt-4">
-              <a href="/resume.pdf" download className="btn hero-btn-primary">
+              <a href="/Akanksha_Tambe_Resume.pdf" download className="btn hero-btn-primary">
                 <FaDownload className="me-2"/>Download Resume
               </a>
 
