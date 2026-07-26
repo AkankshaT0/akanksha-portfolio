@@ -93,7 +93,7 @@ const certificates = [
       "Email Automation Project",
     ],
 
-    link: "https://drive.google.com/file/d/15cL0b0dwKNTnZcBw_bOWZom506j7mAPZ/view?usp=drive_link"
+    link: "https://drive.google.com/file/d/1mZ3O3Rz2yQFKs8iTlwQZ-zTi62GyAMvl/view?usp=sharing"
   },
 
   {
